@@ -8,6 +8,7 @@ import javax.swing.border.EmptyBorder;
 import javax.swing.JLabel;
 import java.awt.Font;
 import javax.swing.JButton;
+import javax.swing.ImageIcon;
 
 public class Student extends JFrame {
 
@@ -66,5 +67,10 @@ public class Student extends JFrame {
 		lblNewLabel_1.setFont(new Font("Tahoma", Font.PLAIN, 16));
 		lblNewLabel_1.setBounds(313, 208, 58, 34);
 		contentPane.add(lblNewLabel_1);
+		
+		JLabel lblNewLabel_2 = new JLabel("");
+		lblNewLabel_2.setIcon(new ImageIcon("D:\\SHAWN\\Eclipse Projects\\StudentFiles\\images\\ProfileImage1.png"));
+		lblNewLabel_2.setBounds(276, 46, 135, 136);
+		contentPane.add(lblNewLabel_2);
 	}
 }
